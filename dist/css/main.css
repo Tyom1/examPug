@@ -112,10 +112,6 @@ h6 {
   font-family: "PTSans";
 }
 
-body {
-  background: orange;
-}
-
 .wrapper {
   width: 100%;
 }
@@ -305,8 +301,15 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #ffff;
-  border-bottom: 2px solid #ffff;
   margin: 0 auto;
+}
+
+.wrapper .sezon .block1 > span {
+  display: block;
+  margin: 50px auto;
+  width: 120px;
+  height: 1px;
+  background: #ffff;
 }
 
 .wrapper .sezon .block1 .miniwatch {
@@ -348,8 +351,143 @@ body {
 
 .wrapper .sezon .block2 {
   width: 45%;
+  height: 730px;
+  background: url("../img/sezon/shoes.webp");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.wrapper .sezon .block2 img {
+.wrapper .sezon .block2 h1,
+.wrapper .sezon .block2 span,
+.wrapper .sezon .block2 a {
+  margin: 20px 0;
+}
+
+.wrapper .sezon .block2 h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.wrapper .sezon .block2 span {
+  width: 120px;
+  height: 1px;
+  background: #ffff;
+}
+
+.wrapper .sezon .block2 a {
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  -webkit-transition: ease-in 0.3s;
+  -o-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.wrapper .sezon .block2 a:hover {
+  background: #fff;
+  color: #000;
+  -webkit-transition: ease-in 0.3s;
+  -o-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.wrapper .smoking {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #000;
+}
+
+.wrapper .smoking .block1,
+.wrapper .smoking .block2 {
+  width: 50%;
+}
+
+.wrapper .smoking .block1 img {
   max-width: 100%;
+  max-height: 100%;
+}
+
+.wrapper .smoking .block2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .smoking .block2 h1 {
+  color: #fff;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wrapper .smoking .block2 span {
+  height: 1px;
+  width: 120px;
+  background: #fff;
+}
+
+.wrapper .smoking .block2 p {
+  width: 471px;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.wrapper .smoking .block2 a {
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  -webkit-transition: ease-in 0.3s;
+  -o-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+
+.wrapper .smoking .block2 a:hover {
+  background: #fff;
+  color: #000;
+  -webkit-transition: ease-in 0.3s;
+  -o-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
 }
