@@ -491,3 +491,83 @@ h6 {
   -o-transition: ease-in 0.3s;
   transition: ease-in 0.3s;
 }
+
+.wrapper .watches {
+  width: 100%;
+  background: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 100px 0;
+}
+
+.wrapper .watches h1,
+.wrapper .watches span {
+  margin: 40px 0;
+}
+
+.wrapper .watches h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.wrapper .watches > span {
+  width: 120px;
+  height: 1px;
+  background: #ffff;
+  display: block;
+}
+
+.wrapper .watches .watches_block {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wrapper .watches .watches_block .watch {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .watches .watches_block .watch .img {
+  background: #191B1C;
+}
+
+.wrapper .watches .watches_block .watch .name {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffff;
+  text-align: center;
+}
+
+.wrapper .watches .watches_block .watch .price {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffff;
+}
