@@ -1,0 +1,51 @@
+.sezon{
+  width: 100%;
+  background: #000;
+  display: flex;
+  .block1{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+      font-size: 36px;
+      line-height: 48px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffff;
+      border-bottom: 2px solid #ffff;
+      margin: 0 auto;
+    }
+    .miniwatch{
+      display: flex;
+      justify-content: space-between;
+      .watch{
+        flex-direction: column;
+        justify-content: center;
+        .img{
+          background:#191B1C;
+        }
+        .name{
+          font-size: 18px;
+          line-height: 24px;
+          color: #ffff;
+          text-align: center;
+        }
+        .price{
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 21px;
+          color: #ffff;
+        }
+  
+      }
+      
+    }
+  }
+  .block2{
+    width: 45%;
+    img{
+      max-width: 100%;
+    }
+  }
+}

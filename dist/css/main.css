@@ -123,7 +123,8 @@ body {
 .wrapper .header {
   width: 100%;
   height: 100vh;
-  background: url("../img/header_img/headerBack.jpg") no-repeat center;
+  background: url("../img/header_img/headerBack.webp") no-repeat center;
+  background-size: cover;
 }
 
 .wrapper .header .topBlock {
@@ -276,4 +277,79 @@ body {
   color: #fff;
 }
 
-.webp .wrapper .header{ background: url(../img/header_img/headerBack.webp) no-repeat center; }
+.wrapper .sezon {
+  width: 100%;
+  background: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .sezon .block1 {
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .sezon .block1 h1 {
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffff;
+  border-bottom: 2px solid #ffff;
+  margin: 0 auto;
+}
+
+.wrapper .sezon .block1 .miniwatch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .sezon .block1 .miniwatch .watch {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .sezon .block1 .miniwatch .watch .img {
+  background: #191B1C;
+}
+
+.wrapper .sezon .block1 .miniwatch .watch .name {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffff;
+  text-align: center;
+}
+
+.wrapper .sezon .block1 .miniwatch .watch .price {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffff;
+}
+
+.wrapper .sezon .block2 {
+  width: 45%;
+}
+
+.wrapper .sezon .block2 img {
+  max-width: 100%;
+}

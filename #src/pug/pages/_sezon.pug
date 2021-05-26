@@ -1,1 +1,18 @@
-h1 sezoooooooooooon
+section.sezon
+  .block1
+    h1 СЕЗОН 2020/21
+    .miniwatch
+      include ../mixin/mixun.pug
+      - var friends = 10
+      case friends
+        when 0
+          +members("000 руб.")
+          +members("175 000 руб.")
+        when 1
+          +members("175 000 руб.")
+        default
+          - var z = ["175 000 руб.","155 000 руб.","50 000 руб."]
+          each val in z
+            +members(val)
+  .block2
+    img(src="img/sezon/shoes.webp" alt="shoes")
