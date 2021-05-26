@@ -1,28 +1,8 @@
-h1 Be single minded
-mixin members(secClass, name, color)
-  div.single_members
-    section(class= secClass)
-      div.profile_image 
-        div.img
-        div.info
-          span.name(class= name)
-          span Bulgaria
-        div.dropdown ...
-      div.loading_container
-        div.loading_info
-          span Instagram
-          span(class= color) 65,376
-        div.loader
-          div.percent
-      div.loading_container
-        div.loading_info
-          span Facebook
-          span(class= color) 12,109
-        div.loader
-          div.percent
-      div.loading_container
-        div.loading_info
-          span Twitter
-          span(class= color) 132,645
-        div.loader
-          div.percent
+mixin members(price)
+  .watch
+    .img
+      img(src="img/sezon/watch.webp", alt="watch")
+    span.name Louis XVI ATHOS :<br>
+    span.price #{price}  
+
+  
